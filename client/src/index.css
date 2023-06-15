@@ -133,14 +133,20 @@ table.table .avatar {
   justify-content: space-between;
 }
 
-#deleteEmployeeModal {
+#deleteMovieModal {
 	position: absolute;
 	top: 40%;
 	left: 50%;
   	transform: translate(-50%, -50%);
+	display:flex;
+	opacity:1
 }
 
-#deleteEmployeeModal .modal-dialog {
+.show{
+	display:flex;
+	opacity:1;
+}
+#deleteMovieModal .modal-dialog {
 	box-shadow: #00000099 3px 3px 17px;
 }
 
